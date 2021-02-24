@@ -1,5 +1,10 @@
 /* custom css */
 
+/* body {
+    background-color: #12232E;
+    color: white;
+} */
+
 .center-h {
     text-align: center;
 }
@@ -99,20 +104,21 @@ br {
   }
 
 #logo_div {
-    position: relative;
-    top: 4.5vh;
+    position: absolute;
+    left: 20vw;
+    top: 20vh;
+    width: 60vw;
+    height: 60vh;
     color: #dddddd;
-    background-color: black;
+    pointer-events:none;
 }
 
 #logo_div h1 {
-    font-weight: bold;  
-    font-family: Arial, Helvetica, sans-serif; 
     font-size: 7vw;
     text-align: center;
     height: 35vh;
 }
-#logo_div h2 {
+#logo_div p {
     font-size: 3vw;
     text-align: center;
 }
@@ -121,53 +127,4 @@ br {
     font-size: 4vw;
     text-align: center;
     width: 100%;
-}
-
-.strokeme
-{
-    color: white;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;  
-}
-
-
-
-#myCarousel {
-  height: 100%;
-  width: 100%;
-}
-
-.carousel-indicators {
-  margin-bottom: 8px;
-}
-
-.carousel-indicators>li {
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-}
-
-.carousel-inner {
-  height: 100%;
-  background-color: black;
-}
-
-.carousel-item {
-  text-align: center;
-}
-
-.parent {
-  height: 50vh;
-}
-
-.carousel-item img {
-  display: block;
-  margin: auto;
-  width: 60%;
-}
-.navbar-brand {
-    font-weight: bold;  
 }

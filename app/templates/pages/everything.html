@@ -5,7 +5,7 @@
 <!-- <div class="container center-h" style="height: 25vh;">
     <img src="static/images/logo.PNG">
 </div> -->
-<!-- <canvas id="dots_window">  
+<canvas id="dots_window">  
 </canvas>
 
 
@@ -13,45 +13,7 @@
   <h1 style="font-weight: bold;  font-family: Arial, Helvetica, sans-serif; padding-bottom: 0">Big Data for <br> Health Equity</h1>
   <h2 class = "center-h" style="font-weight: bold;  font-family: Arial, Helvetica, sans-serif; font-size: 5vw">BD4HE</h2>
   <br>
-</div> -->
-
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <ul class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ul>
-    <div class="carousel-inner">
-      {% for media in media_data['appearances'] %}
-        {% if "Neighborhood" in media['title'] %}
-          <div class="carousel-item active"  style="height: 50vh">
-        {% else %}
-          <div class="carousel-item" style="height: 50vh">
-        {% endif %}
-            <div class="parent d-flex justify-content-center">
-              <img src="{{media['thumbnail']}}">
-              <div class="mask rgba-black-strong"></div>
-            </div>
-          <div class="carousel-caption strokeme">
-            <h3 class="h3-responsive">{{media['title']}}</h3>
-            <p>{{media['desc']}}  <a href="{{media['link']}}" target="_blank">Read More...</a></p>
-          </div>
-        </div>
-      {%endfor%}
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-  
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-  </div>
-  <div class="fadeout" style="position: relative; top: -4.5vh; height: 4.5vh; display: block"></div>
-
-
+</div> 
 <br>
 <div class="container main_box">
   <h1>Mission</h1>
