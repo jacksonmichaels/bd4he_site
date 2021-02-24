@@ -1,0 +1,173 @@
+/* custom css */
+
+.center-h {
+    text-align: center;
+}
+
+p {
+    font-size:20px;
+}
+
+.main_box {
+    padding-top: 2%;
+}
+
+#site_header{
+    margin-top: 2%;
+    border-radius: 20px;
+    background-image: url("images/Banner.jpg");
+    background-size: cover;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+
+}
+
+.bio_box{
+    background-color: hsl(204, 5%, 90%);
+}
+
+.hideContent {
+    overflow: hidden;
+    line-height: 1em;
+    height: 2em;
+}
+
+.showContent {
+    line-height: 1em;
+    height: auto;
+}
+.showContent{
+    height: auto;
+}
+
+#logo_div h1 {
+    font-size: 24px;        
+}
+
+#logo_div p {
+    padding: 10px 0;
+}
+.show-more {
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+br {
+    color: #000;
+    background-color: #000;
+}
+
+.fadeout {
+    pointer-events:none;
+    position: absolute; 
+    bottom: 0em;
+    width:100%;
+    height: 4em;
+    background: -webkit-linear-gradient(
+        rgba(228, 230, 231, 0) 0%,
+        rgba(228, 230, 231, 1) 100%
+    ); 
+    background-image: -moz-linear-gradient(
+        rgba(228, 230, 231, 0) 0%,
+        rgba(228, 230, 231, 1) 100%
+    );
+    background-image: -o-linear-gradient(
+        rgba(228, 230, 231, 0) 0%,
+        rgba(228, 230, 231, 1) 100%
+    );
+    background-image: linear-gradient(
+        rgba(228, 230, 231, 0) 0%,
+        rgba(228, 230, 231, 1) 100%
+    );
+    background-image: -ms-linear-gradient(
+        rgba(228, 230, 231, 0) 0%,
+        rgba(228, 230, 231, 1) 100%
+    );
+} 
+
+#dots_window {
+    width: 100%;
+    height: 100vh;
+    background-color: #12232E;
+    margin: 0px;
+    overflow: hidden;
+  }
+
+#logo_div {
+    position: relative;
+    top: 4.5vh;
+    color: #dddddd;
+    background-color: black;
+}
+
+#logo_div h1 {
+    font-weight: bold;  
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 7vw;
+    text-align: center;
+    height: 35vh;
+}
+#logo_div h2 {
+    font-size: 3vw;
+    text-align: center;
+}
+
+#mission_statement {
+    font-size: 4vw;
+    text-align: center;
+    width: 100%;
+}
+
+.strokeme
+{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+
+
+#myCarousel {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-indicators {
+  margin-bottom: 8px;
+}
+
+.carousel-indicators>li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+  background-color: black;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.parent {
+  height: 50vh;
+}
+
+.carousel-item img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+.navbar-brand {
+    font-weight: bold;  
+}

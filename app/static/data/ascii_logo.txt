@@ -1,0 +1,16 @@
+BBBBBBBBBBBBBBBBB   DDDDDDDDDDDDD               444444444  HHHHHHHHH     HHHHHHHHHEEEEEEEEEEEEEEEEEEEEEE
+B::::::::::::::::B  D::::::::::::DDD           4::::::::4  H:::::::H     H:::::::HE::::::::::::::::::::E
+B::::::BBBBBB:::::B D:::::::::::::::DD        4:::::::::4  H:::::::H     H:::::::HE::::::::::::::::::::E
+BB:::::B     B:::::BDDD:::::DDDDD:::::D      4::::44::::4  HH::::::H     H::::::HHEE::::::EEEEEEEEE::::E
+  B::::B     B:::::B  D:::::D    D:::::D    4::::4 4::::4    H:::::H     H:::::H    E:::::E       EEEEEE
+  B::::B     B:::::B  D:::::D     D:::::D  4::::4  4::::4    H:::::H     H:::::H    E:::::E             
+  B::::BBBBBB:::::B   D:::::D     D:::::D 4::::4   4::::4    H::::::HHHHH::::::H    E::::::EEEEEEEEEE   
+  B:::::::::::::BB    D:::::D     D:::::D4::::444444::::444  H:::::::::::::::::H    E:::::::::::::::E   
+  B::::BBBBBB:::::B   D:::::D     D:::::D4::::::::::::::::4  H:::::::::::::::::H    E:::::::::::::::E   
+  B::::B     B:::::B  D:::::D     D:::::D4444444444:::::444  H::::::HHHHH::::::H    E::::::EEEEEEEEEE   
+  B::::B     B:::::B  D:::::D     D:::::D          4::::4    H:::::H     H:::::H    E:::::E             
+  B::::B     B:::::B  D:::::D    D:::::D           4::::4    H:::::H     H:::::H    E:::::E       EEEEEE
+BB:::::BBBBBB::::::BDDD:::::DDDDD:::::D            4::::4  HH::::::H     H::::::HHEE::::::EEEEEEEE:::::E
+B:::::::::::::::::B D:::::::::::::::DD           44::::::44H:::::::H     H:::::::HE::::::::::::::::::::E
+B::::::::::::::::B  D::::::::::::DDD             4::::::::4H:::::::H     H:::::::HE::::::::::::::::::::E
+BBBBBBBBBBBBBBBBB   DDDDDDDDDDDDD                4444444444HHHHHHHHH     HHHHHHHHHEEEEEEEEEEEEEEEEEEEEEE

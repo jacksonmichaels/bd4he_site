@@ -1,0 +1,74 @@
+{
+    "faculty": [
+      {
+        "name": "Thu Nguyen, ScD, MSPH",
+        "bio": "Thu Nguyen, ScD, MSPH is an Assistant Professor in the Department of Family and Community Medicine at University of California, San Francisco (UCSF). She is an epidemiologist whose research focuses on the impact of modifiable social factors on minority health and health disparities. Dr. Nguyen uses a variety of different data sources (including Big Data) and approaches (including quantitative and qualitative research methods) to advance our understanding of social determinants of health. She is the principal investigator of a National Institutes of Health Pathway to Independence Award to create a novel state and county-level indicator of racial attitudes and bias using Twitter data and to examine its associations with birth outcomes and racial/ethnic disparities in birth outcomes. Dr. Nguyen received her BA in Human Biology from Stanford University, her MSPH in Epidemiology from UNC Gillings School of Global Public Health, and her ScD in Social Epidemiology from the Harvard T.H. Chan School of Public Health.",
+        "img": "\\bio_images\\Thu_Nguyen.png"
+      },
+      {
+        "name": "Gilbert C. Gee, Ph.D.",
+        "bio": "Gilbert C. Gee, Ph.D., is a Professor in the Department of Community Health Sciences at the Fielding School of Public Health at UCLA. He received his bachelor degree in neuroscience from Oberlin College, his doctorate in Health Policy and Management from the Johns Hopkins University, and post-doctoral training in sociology from Indiana University. His research focuses on the social determinants of health inequities of racial, ethnic, and immigrant minority populations using a multi-level and life course perspective. A primary line of his research focuses on conceptualizing and measuring racial discrimination, and in understanding how discrimination may be related to illness. He has also published more broadly on the topics of stress, neighborhoods, immigration, environmental exposures, occupational health, and on Asian American populations.",
+        "img": "\\bio_images\\gale.png"
+      },
+      {
+        "name": "Amani M. Allen, PhD, MPH",
+        "bio": "Amani M. Allen is Associate Professor of Community Health Sciences and Epidemiology at the University of California, Berkeley, School of Public Health. Her broad research interest is to integrate concepts, theories and methods from epidemiology and the social and biomedical sciences to examine racial inequalities in health as they exist across populations, across place and over the life-course. Dr. Allen considers herself to be more “exposure” than “outcomes” focused, which is consistent with her interests in examining social factors such as “race” and “socioeconomic position” as exposures that serve as the foundation for the creation and preservation of health disparities across a number of outcomes. She is interested in how these social exposures determine life experiences and opportunities differently for different social groups and how those differences become embodied and impact mental and physical health and well being. Dr. Allen’s work employs a mix of quantitative and qualitative data for understanding racial health disparities, informing the measurement of social determinants and addressing concerns related to internal validity challenges in health disparities research. Dr. Allen has published in top scientific journals including the American Journal of Public Health, American Journal of Preventive Medicine, Annals of Epidemiology, Psychoneuroendocrinology--where her paper examining racial discrimination, educational attainment and biological dysregulation among African American women was named Editor’s Choice (2019), and Annals of the New York Academy of Sciences where her recent paper examining racial discrimination, superwoman schema, and allostatic load among African-American women was highlighted as the cover feature. Dr. Allen and her work have been featured on NPR, CBSNews, BlackPress USA, the Urban League, Essence Magazine, US News & World Report, The Guardian, SF Chronicle, The Atlantic, WebMD, CNN, and MSNBC, among others.",
+        "img": "\\bio_images\\Amani_Allen.jpg"
+      },
+      {
+        "name": "Quynh Nguyen, PhD, MSPH",
+        "bio": "Assistant Professor of Epidemiology and Biostatistics at the University of Maryland School of Public Health, College Park, MD. Dr. Nguyen is a social epidemiologist focusing on contextual and economic factors as they relate to health. She has extensive experience using numerous national and international population-based health surveys to examine social and economic predictors of health, and to quantify national and international patterns in health disparities. Her current research program focuses on creating and validating neighborhood indicators constructed from nontraditional Big Data sources such as social media data and Google Street View images. She received a K01 career development grant through the Big Data to Knowledge Initiative (BD2K) and a R01 from the National Library of Medicine to pursue this research program (K01ES025433; R01LM012849).",
+        "img": "\\bio_images\\Quynh_Nguyen.jpg"
+      },
+      {
+        "name": "Shaniece Criss, ScD, MPH, MPA",
+        "bio": "Shaniece Criss, ScD, MPH, MPA is a Health Science faculty member at Furman University and a community-engaged qualitative researcher addressing health equity and health communication. Dr. Criss is an elected official on Travelers Rest City Council and serves on the board of directors for Prisma Health, the largest not-for-profit health organization in South Carolina serving more than 1.2 million patients annually. Recently, she was recognized as one of eleven leaders from across the state with the “Women Vision SC” Award from ETV. With a passion to implement effective interventions and policies, she earned her doctorate from Harvard T.H. Chan School of Public Health and Master of Public Administration from Harvard Kennedy School of Government, where she was awarded a Presidential Public Service Fellowship. She has a Master of Public Health from Emory University and an undergraduate degree in communication from Oglethorpe University. As a public health practitioner, Dr. Criss served as producer and host for a national television show for the Ministry of Health in Guyana during her Peace Corps service. She also held positions at ICF International, Centers for Disease Control, and CNN.",
+        "img": "\\bio_images\\Shaniece_Criss.png"
+      }],
+      "non_faculty": [
+      {
+        "name": "Eli Michaels, MPH",
+        "bio": "Eli Michaels is a 4th-year PhD student in Epidemiology. She is passionate about integrating theory from across the social sciences with epidemiologic methods to measure racism at different social levels and estimate its effects on racial health inequities in the United States. She is particularly interested in using big data to measure area-level racial prejudice and examining biopsychosocial pathways to health. Prior to starting her PhD, she completed her BA in Sociology and Feminist & Gender Studies at Colorado College and her MPH in Health & Social Behavior at UC Berkeley. When she’s not debugging R code, Eli enjoys rock climbing, running, and cooking.",
+        "img": "\\bio_images\\Eli_Michaels.jpg"
+      },
+      {
+        "name": "Dr. Dina Huang, PhD",
+        "bio": "Dr. Dina Huang is a quantitative epidemiologist focusing on social and environmental stressors that are related to cardiovascular outcomes. She is interested in utilizing Big Data as a tool in public health research. She has extensive experience in natural language processing (NLP). ",
+        "img": "\\bio_images\\Dine_Huang.jpg"
+      },
+      {
+        "name": "Marilyn D. Thomas, MPH, PhD",
+        "bio": "Marilyn D. Thomas, MPH, PhD, is a Postdoctoral Fellow in the Departments of Epidemiology & Biostatistics and Psychiatry at UCSF. Her primary interest is to understand how social policies, practices, and norms contribute to racial and socioeconomic health disparities. She has an expertise in integrating social theory, measuring the exposure to racism, and estimating the intersections of race, socioeconomic position, and socio-environmental factors using statistical interaction and case-only study designs. Her research investigates the role that structural, institutional, and everyday social marginalization plays on disparities in accelerated aging, physiologic dysregulation, and police use of fatal force, and whether and to what extent socioeconomic and demographic factors may modify these effects. To practice self-care, she likes to hike, dine out, see live music/comedy/theater, travel, and play guitar.",
+        "img": "\\bio_images\\Marilyn_Thomas.png"
+      },
+      {
+        "name": "Nhung Thai",
+        "bio": "Nhung Thai is a current undergraduate student at UC Berkeley, majoring in Nutritional Sciences with a concentration in Physiology and Metabolism. She is interested in pursuing a double minor in Public Health and Bioengineering while studying the intersectionality between health determinants and socioeconomic disparities. She hopes to gain more research experience and expand her skillset as a student and researcher. During her free time, she loves to serve the Limited English Efficiency community through interpretation services and volunteering. (*will add picture soon*)",
+        "img": "\\bio_images\\default_user.png"
+      },
+      {
+        "name": "April Bell, PhD, MPH",
+        "bio": "April Bell, PhD, MPH is a postdoctoral fellow at the California Preterm Birth Initiative at the University of California, San Francisco.  Dr. Bell obtained her PhD in Epidemiology from the Indiana University School of Public Health at Bloomington. She obtained her MPH with a dual concentration in Epidemiology and Social & Behavioral Sciences from the Indiana University School of Medicine and her BA in Human Biology from Stanford University. Dr. Bell's research is focused on decreasing reproductive health inequities among BIPOC youth by addressing the impacts of societal and structural biases on adverse birth outcomes, sexually transmitted infections, HIV acquisition, abortion access, and unintended pregnancy. Having worked extensively in both the US and across sub-Saharan Africa, she is interested in using both quantitative and qualitative methodologies, including digital storytelling, to bridge the expanse between US and African settings.  She is Certified in Public Health and a Certified Clinical Research Professional.  Dr. Bell is also a Governing Councilor for the Sexual and Reproductive Health Section of the American Public Health Association. Other professional affiliations include the Society of Family Planning, Delta Omega Honorary Society in Public Health, and Society for Epidemiologic Research.",
+        "img": "\\bio_images\\April_Bell.jpg"
+      },
+      {
+        "name": "Isha Yardi",
+        "bio": "Isha Yardi is a current undergraduate student at The University of Maryland College Park studying Public Health Science in the Gemstone Honors Program. Isha is broadly interested in social epidemiology and the application of data to health policy outcomes. She is excited to be working with BD4HE to promote health equity through research! ",
+        "img": "\\bio_images\\Isha_Yardi.jpg"
+      },
+      {
+        "name": "Lynn Phan",
+        "bio": "Lynn Phan is a senior undergraduate student at the University of Maryland College Park, majoring in Public Health Science and minoring in General Business. She is interested in utilizing data from a variety of sources to find patterns that can help improve and further public health issues and health equity. In her free time, she enjoys photography, painting, and testing out random recipes on the internet.",
+        "img": "\\bio_images\\lynn_phan.jpg"
+      },
+      {
+        "name": "Krishay Mukhija",
+        "bio": "Krishay Mukhija is a senior at The Harker School in San Jose, CA. He is interested in using machine learning to address racial disparities and improve health equity. In his free time, Krishay is training for a marathon and is running a non-profit called Suits2Empower, an organization working to break the cycle of juvenile incarceration.",
+        "img": "\\bio_images\\krishay_mukhija.jpg"
+      },
+      {
+        "name": "Leah Nguyen",
+        "bio": "Leah Nguyen is a current 4th year student at the University of Maryland pursuing a B.S. in public health science. She is in a 5-year B.S./M.H.A. program. She is interested in health disparities and inequities, especially with mental health and women’s health. She hopes to pursue an administrative career within these fields of public health. She is also involved in Alpha Phi Omega, a national service and leadership fraternity. In her free time, she enjoys gardening, painting, and cooking.",
+        "img": "\\bio_images\\leah_nguyen.jpeg"
+      }
+    ]}
