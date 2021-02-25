@@ -1,29 +1,11 @@
 {% extends "base.html" %}
 
 
-<!-- 
-Top for faculty:
-thu
-gale
-amani
-Quynh
-Shaniece
-Not- Faculty:
-Eli
-Dina
-Merilyn
-April
-[the rest in any order] 
--->
-
-
 {% block content %}
-<div class="row">
-  <div class="col-2"></div>
-  <div class="col-8">
-    <div class="container main_box">
+<div class="container">
+<div class="row" style="margin-top: 4.5vh">
+    <div class="container">
       <h1 style="font-size: 4vw; text-align: center;">Meet the Team!</h1>
-      <br>
       <div class="row">
         {% for institution in institutions%}
         <div class="col-3" style="height: 160px; width: 160px; position: relative;">
@@ -35,10 +17,10 @@ April
         <h1>Faculty</h1>
         {% for person in faculty%}
           <div class="row jumbotron bio_box container" style="margin-top: 2%; padding: 1%">
-            <div class="col-md-4 col-sm-12">
-              <img src="{{'static/images/' + person['img']}}" class="card-img-top" alt="..." style="height: 30vh; object-fit: cover">
+            <div class="col-lg-4 col-md-12 ">
+              <img src="{{'static/images' + person['img']}}" class="card-img-top" alt="..." style="height: 100%; object-fit: cover">
             </div>
-            <div class="col-md-8 col-sm-12" style="overflow: hidden;">
+            <div class="col-lg-8 col-md-12" style="overflow: hidden;">
               <div class="row">
                 <div class="col-10">
                   <h5 class="card-title">{{person['name']}}</h5>
@@ -53,11 +35,11 @@ April
       <div class="container">
         <h1>Postdoctoral Scholars, Students, and Researchers</h1>
         {% for person in non_faculty%}
-          <div class="row jumbotron bio_box container" style="margin-top: 2%; padding: 1%">
-            <div class="col-4">
-              <img src="{{'static/images/' + person['img']}}" class="card-img-top" alt="..." style="height: 30vh; object-fit: cover">
+        <div class="row jumbotron bio_box container" style="margin-top: 2%; padding: 1%">
+            <div class="col-lg-4 col-md-12 ">
+              <img src="{{'static/images' + person['img']}}" class="card-img-top" alt="..." style="height: 100%; object-fit: cover">
             </div>
-            <div class="col-8" style="overflow: hidden;">
+            <div class="col-lg-8 col-md-12" style="overflow: hidden;">
               <div class="row">
                 <div class="col-10">
                   <h5 class="card-title">{{person['name']}}</h5>
@@ -90,7 +72,7 @@ April
         </p>
     </div>
   </div>
-  <div class="col-2">
+  <!-- <div class="col-2">
       <div class="container main_box">
         <h1 style="font-size: 2vw;    text-align: center;">Our Friends</h1>
       </div>
@@ -101,14 +83,13 @@ April
             </li>           
           {%endfor%} 
 
-        <!-- {% for friend in friends%}
+        {% for friend in friends%}
           <li>
             <img src="{{'static/images/friends' + friend['img']}}">
           </li>
-          {%endfor%}  -->
+          {%endfor%} 
       </ul>
-    </div> 
-  </div>
+    </div>  -->
 </div>
 <script type="text/javascript">
 </script>

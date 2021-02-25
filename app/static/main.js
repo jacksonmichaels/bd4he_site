@@ -3,34 +3,27 @@ $(document).ready(function() {
     parent.location.hash = ''
 
 
-    $(".comment").shorten({"showChars" : 700});
+    if ($(window).width() <=  992) {
+        $(".comment").shorten({"showChars" : 70});
+        $(".navbar-brand").html('BD4HE')
+    } else { 
+        $(".comment").shorten({"showChars" : 700});
+        $(".navbar-brand").html('Big Data for Health Equity (BD4HE) Research Collaborative')
+    }
 
     if (scroll_to != "") {
         $('html, body').animate({
             scrollTop:$(scroll_to).offset().top-66
         }, 1000);
     }
-   
-//    $("#sec-2").click(function() {
-//         $('html, body') .animate({
-//             scrollTop:        $("#two").offset().top-112
-//         }, 1000);
-//      return false;
-//     });
-   
-//    $("#sec-3").click(function() {
-//         $(' html,body') .animate({
-//             scrollTop:        $("#three").offset().top-112
-//         }, 1000);
-//      return false;
-//     });
-   
-//    $("#sec-4").click(function() {
-//      $(this).addClass("active");
-//         $('html,body ') .animate({
-//             scrollTop:        $("#four").offset().top-112
-//         }, 1000);
-//      return false;
-//     });
+});
 
+$( window ).resize(function() {
+    if ($(window).width() <=  992) {
+        $(".comment").shorten({"showChars" : 70});
+        $(".navbar-brand").html('BD4HE')
+    } else { 
+        $(".comment").shorten({"showChars" : 700});
+        $(".navbar-brand").html('Big Data for Health Equity (BD4HE) Research Collaborative')
+    }
 });
