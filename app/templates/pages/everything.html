@@ -57,10 +57,10 @@
 </div> 
 <br>
 <div class="container main_box" style="">
-  <h1 id="mission_box" style="font-weight: bold; padding-bottom: 1rem;text-align: center;">Advancing Big Data Methods in Population Health to Improve Health Equity</h1>
+  <h1 id="mission_box" style="font-weight: bold; padding: 1rem;text-align: center;">Advancing Big Data Methods in Population Health to Improve Health Equity</h1>
   <p style="text-align: center;">
       We are a collaborative of faculty, trainees, and students from universities across the U.S committed to advancing theories, methods, and findings related to the use of Big Data for health equity research. We investigate the impact of the social, cultural, and built environment on health disparities and identify levers for change. One theme of our research has been the measurement of area-level racial attitudes and quantifying its impact on health using both machine learning algorithms and qualitative approaches.
-
+  </p>
   <h1 class = "research_banner">Research</h1>
 
   <h2>In development</h2>
@@ -83,27 +83,21 @@
     <li><p>{{proj}}</p></li>
     {%endfor%}
   </ul>
-  <hr>
   <h1 class='research_banner'>Grant Support</h1>
-  <hr>
   <p>
     This research is supported by the National Institute on Minority Health and Health Disparities and the National Library of Medicine of 
     the National Institutes of Health under Award Number R00MD012615 (Nguyen, T., PI), R01LM012849 (Nguyen, Q., PI). We are grateful to the 
     California Center for Population Research at UCLA (CCPR) for general support. CCPR receives population research infrastructure funding 
     (P2C-HD041022) from the Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD).
   </p>
-</div>
-
-
-<div class="container main_box" id = "media_div">
   <h1 class='research_banner'>Media Appearances</h1>
-  <hr>
-  <div class="row">
+  <div class="row" id="media_div">
     {% for media in media_data['appearances']%}
       <div class="card" style="width: 100%; margin: 1rem;">
         <div class="d-flex align-items-center media_img_div" >
-          <img class="media_img" src="{{media['thumbnail']}}" alt="Card image cap">
+          <img class="media_img center-h" src="{{media['thumbnail']}}" alt="Card image cap">
         </div>
+        <hr>
         <div class="card-body" style="width: 80%">
           <h3 class="card-title">{{media['title']}}</h3>
         </div>
