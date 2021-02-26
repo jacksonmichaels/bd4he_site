@@ -72,10 +72,37 @@ p {
 
 }
 
-.bio_box{
-    background-color: hsl(204, 5%, 90%);
+.media_img {
+    width: 100%;
 }
 
+.media_img_div{
+    height: 10rem;
+    overflow: hidden;
+}
+
+#media_div{
+    color: black;
+}
+
+#media_div h1 {
+    color: white;
+}
+
+
+#media_div .btn{
+    background-color: var(--theme-color);
+    border-color: var(--theme-color);
+}
+
+.bio_box{
+    background-color: hsl(204, 5%, 90%);
+    overflow: hidden;
+}
+
+.bio_box img {
+    object-fit: cover !important;
+}
 .hideContent {
     overflow: hidden;
     line-height: 1em;
@@ -143,14 +170,20 @@ br {
     pointer-events:none;
 }
 
+#logo_div h1 {
+    font-size: 8rem;
+}
+
+#logo_div h2 {
+    font-size: 5rem;
+}
+
 h1, h2, h3 {
     font-family: 'Georgia' !important;
     font-weight: bold;
 }
 
-#logo_div h1 {
-    font-size: 8rem;
-}
+
 
 #mission_statement {
     font-size: 4vw;

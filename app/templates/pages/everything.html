@@ -94,26 +94,25 @@
   </p>
 </div>
 
-<!-- 
-<div class="container main_box" id = "Media Appearances">
-  <h1>Media Appearances</h1>
+
+<div class="container main_box" id = "media_div">
+  <h1 class='research_banner'>Media Appearances</h1>
   <hr>
   <div class="row">
     {% for media in media_data['appearances']%}
-      <div class="card col-md-4" style="width: 18rem;">
-        <div class="d-flex align-items-center" style="height: 30vh;">
-          <img class="card-img-top" src="{{media['thumbnail']}}" alt="Card image cap">
+      <div class="card" style="width: 100%; margin: 1rem;">
+        <div class="d-flex align-items-center media_img_div" >
+          <img class="media_img" src="{{media['thumbnail']}}" alt="Card image cap">
         </div>
-        <div class="card-body">
-          <h5 class="card-title">{{media['title']}}</h5>
-          <p class="card-text">{{media['desc']}}</p>
-          <a href="{{media['link']}}" class="btn btn-primary">Learn More</a>
+        <div class="card-body" style="width: 80%">
+          <h3 class="card-title">{{media['title']}}</h3>
         </div>
+        <a href="{{media['link']}}" class="btn btn-primary" style="position: absolute; right:1rem; bottom:1rem; display: block">Learn More</a>
       </div>
     {%endfor%}
     </row>
   </div>
-</div> -->
+</div>
 <script src="static/js/dots.js"></script>
 
 {% endblock %}
