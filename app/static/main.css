@@ -19,10 +19,18 @@ p {
     font-size:20px;
 }
 
+.img_div {
+    overflow:hidden;
+    min-height: 35rem;
+    object-fit: cover;
+}
+
+
 .card-img-top {
-    object-fit: contain !important;
-    max-width: 100%;
-    max-height: 100%;
+    position: absolute;
+    float: top;
+    top: 0;
+    display: block;
 }
 
 
@@ -37,12 +45,9 @@ p {
 
 .main_box {
     padding-top: 2%;
-    background-color: rgb(10,25,30);
     border-radius: 10px;
     padding: 10px;
-}
-
-#mission_box {
+    color: black;
 }
 
 #site_header{
@@ -128,8 +133,6 @@ br {
     background-color: #12232E;
     margin: 0px;
     overflow: hidden;
-    position: fixed;
-    z-index: -1;
   }
 
 #logo_div {
@@ -137,14 +140,19 @@ br {
     text-align: center;
     color: #dddddd;
     pointer-events:none;
-}
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20rem;
+    margin-left: auto;
+    margin-right: auto;}
 
 #logo_div h1 {
     font-size: 7vw;
     text-align: center;
     height: 35vh;
 }
-#logo_div p {
+#logo_div h2 {
     font-size: 3vw;
     text-align: center;
 }
@@ -166,7 +174,7 @@ br {
 }
 
 .navbar {
-    background-color: var(--theme-color);
+    background-color: var(--theme-color) !important;
     color: white !important;
 }
 
@@ -204,8 +212,6 @@ br {
     margin: 10px;
     text-align: center;
 }
-
-
 
 #myCarousel {
   height: 100%;

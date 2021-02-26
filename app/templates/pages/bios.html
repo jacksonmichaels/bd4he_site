@@ -7,7 +7,7 @@
 <div class="row" style="margin-top: 4.5vh">
     <div class="container">
       <div  style="margin: 8%">
-      <h1 style="font-size: 4vw; text-align: center;">Meet the Team</h1>
+      <h1 style="font-size: 5rem; text-align: center;">Meet the Team</h1>
       <!-- <div class="row">
         {% for institution in institutions%}
         <div class="col-3" style="height: 160px; width: 160px; position: relative;">
@@ -19,9 +19,9 @@
       <div class="container">
         <h1>Faculty</h1>
         {% for person in faculty%}
-          <div class="row jumbotron bio_box container" style="margin-top: 2%; padding: 1%">
-            <div class="col-lg-4 col-md-12 "  style="height: 20rem;" style="position: relative">
-              <img src="{{'static/images' + person['img']}}" class="card-img-top center" alt="...">
+          <div class="row bio_box container" style="margin-top: 2%; padding: 1%">
+            <div class="col-lg-4 col-md-12 img_div"  style="height: 20rem;" style="position: relative">
+              <img src="{{'static/images' + person['img']}}" class="card-img-top" alt="...">
             </div>
             <div class="col-lg-8 col-md-12" style="overflow: hidden;">
               <div class="row">
@@ -40,8 +40,8 @@
       <div class="container">
         {% for person in non_faculty%}
         <div class="row jumbotron bio_box container" style="margin-top: 2%; padding: 1%">
-            <div class="col-lg-4 col-md-12 "  style="height: 20rem;" style="position: relative">
-              <img src="{{'static/images' + person['img']}}" class="card-img-top center"  alt="...">
+            <div class="col-lg-4 col-md-12 img_div"  style="height: 20rem;" style="position: relative">
+              <img src="{{'static/images' + person['img']}}" class="card-img-top" alt="...">
             </div>
             <div class="col-lg-8 col-md-12" style="overflow: hidden;">
               <div class="row">
