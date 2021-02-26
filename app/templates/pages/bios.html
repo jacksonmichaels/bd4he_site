@@ -7,7 +7,7 @@
 <div class="row" style="margin-top: 4.5vh">
     <div class="container">
       <div  style="margin: 8%">
-      <h1 style="font-size: 4vw; text-align: center;">Meet the Team</h1>
+      <h1 style="font-size: 4rem; text-align: center;">Meet the Team</h1>
       <!-- <div class="row">
         {% for institution in institutions%}
         <div class="col-3" style="height: 160px; width: 160px; position: relative;">
@@ -19,14 +19,14 @@
       <div class="container">
         <h1>Faculty</h1>
         {% for person in faculty%}
-          <div class="row jumbotron bio_box container" style="margin-top: 2%; padding: 1%">
-            <div class="col-lg-4 col-md-12 "  style="height: 20rem;" style="position: relative">
+          <div class="row jumbotron bio_box container justify-content-center" style="margin-top: 2%; padding: 1%;">
+            <div class="col-md-3 col-sm-10 bio-img-div"  style="height: 20rem;" style="position: relative">
               <img src="{{'static/images' + person['img']}}" class="card-img-top center" alt="...">
             </div>
-            <div class="col-lg-8 col-md-12" style="overflow: hidden;">
-              <div class="row">
+            <div class="col-md-9 col-sm-12" style="overflow: hidden;">
+              <div class="row justify-content-center">
                 <div class="col-10">
-                  <h5 class="card-title">{{person['name']}}</h5>
+                  <h3 class="card-title">{{person['name']}}</h3>
                 </div>
               </div>
               <p class ="comment" id="{{person['name']}}" class="card-text bio-card hideContent">{{person['bio']}}</p>
@@ -34,19 +34,19 @@
           </div>
         {%endfor%} 
       </div>
-      <div id="research_banner">
+      <div class="research_banner">
           <h1>Postdoctoral Scholars, Students, and Researchers</h1>
       </div>
       <div class="container">
         {% for person in non_faculty%}
-        <div class="row jumbotron bio_box container" style="margin-top: 2%; padding: 1%">
-            <div class="col-lg-4 col-md-12 "  style="height: 20rem;" style="position: relative">
-              <img src="{{'static/images' + person['img']}}" class="card-img-top center"  alt="...">
+          <div class="row jumbotron bio_box container" style="margin-top: 2%; padding: 1%">
+            <div class="col-lg-3 col-md-12 bio-img-div"  style="height: 20rem;" style="position: relative">
+              <img src="{{'static/images' + person['img']}}" class="card-img-top center" alt="...">
             </div>
-            <div class="col-lg-8 col-md-12" style="overflow: hidden;">
+            <div class="col-lg-9 col-md-12" style="overflow: hidden;">
               <div class="row">
                 <div class="col-10">
-                  <h5 class="card-title">{{person['name']}}</h5>
+                  <h3 class="card-title">{{person['name']}}</h3>
                 </div>
               </div>
               <p class ="comment" id="{{person['name']}}" class="card-text bio-card hideContent">{{person['bio']}}</p>

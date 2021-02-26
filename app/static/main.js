@@ -3,7 +3,7 @@ $(document).ready(function() {
     parent.location.hash = ''
 
 
-    if ($(window).width() <=  992) {
+    if ($(window).width() <=  720) {
         $(".comment").shorten({"showChars" : 70});
         $(".navbar-brand").html('BD4HE')
     } else { 
@@ -19,7 +19,7 @@ $(document).ready(function() {
 });
 
 $( window ).resize(function() {
-    if ($(window).width() <=  992) {
+    if ($(window).width() <=  720) {
         $(".comment").shorten({"showChars" : 70});
         $(".navbar-brand").html('BD4HE')
     } else { 
