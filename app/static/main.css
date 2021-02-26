@@ -11,6 +11,10 @@ body {
     --theme-color: var(--sage);
 }
 
+h1, h2, h3 {
+    font-family: 'Georgia' !important;
+    font-weight: bold;
+}
 .center-h {
     text-align: center;
 }
@@ -21,11 +25,15 @@ p {
 
 .img_div {
     overflow:hidden;
-    min-height: 30rem;
+    height: 22rem;
     object-fit: cover;
 }
 
+.img_div .col-md-12 {
+    min-height: 30rem !important;
+    height: auto !important;
 
+}
 .card-img-top {
     position: absolute;
     float: top;
