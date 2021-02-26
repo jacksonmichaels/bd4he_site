@@ -28,7 +28,7 @@ p {
 
 .img_div {
     overflow:hidden;
-    min-height: 35rem;
+    height: 35rem;
     object-fit: cover;
 }
 
@@ -100,9 +100,7 @@ p {
     overflow: hidden;
 }
 
-.bio_box img {
-    object-fit: cover !important;
-}
+
 .hideContent {
     overflow: hidden;
     line-height: 1em;
