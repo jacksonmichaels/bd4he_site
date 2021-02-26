@@ -57,6 +57,7 @@
 <br>
 <div class="container main_box" style="">
   <h1 id="mission_box" style="font-weight: bold; padding: 3rem;text-align: center;">Advancing Big Data Methods in Population Health to Improve Health Equity</h1>
+  <hr>
   <h4 style="text-align: center; padding-bottom: 2rem;">
       We are a collaborative of faculty, trainees, and students from universities across the U.S committed to advancing theories, methods, and findings related to the use of Big Data for health equity research. We investigate the impact of the social, cultural, and built environment on health disparities and identify levers for change. One theme of our research has been the measurement of area-level racial attitudes and quantifying its impact on health using both machine learning algorithms and qualitative approaches.
   </h4>
@@ -76,7 +77,7 @@
     {%endfor%}
   </ul>
 
-  <h2>Published works</h1>
+  <h2>Published works</h2>
   <ul>
     {% for proj in pub_data['pubs']%}
     <li><p>{{proj}}</p></li>
@@ -89,28 +90,23 @@
     California Center for Population Research at UCLA (CCPR) for general support. CCPR receives population research infrastructure funding 
     (P2C-HD041022) from the Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD).
   </p>
-</div>
+  <h1 class='research_banner'>Media Appearances</h1>
 
-<!-- 
-<div class="container main_box" id = "Media Appearances">
-  <h1>Media Appearances</h1>
-  <hr>
-  <div class="row">
+  <div class="row" id="media_div">
     {% for media in media_data['appearances']%}
-      <div class="card col-md-4" style="width: 18rem;">
-        <div class="d-flex align-items-center" style="height: 30vh;">
-          <img class="card-img-top" src="{{media['thumbnail']}}" alt="Card image cap">
+      <div class="card" style="width: 100%; margin: 1rem;">
+        <div class="d-flex align-items-center media_img_div" >
+          <img class="media_img center-h" src="{{media['thumbnail']}}" alt="Card image cap">
         </div>
-        <div class="card-body">
-          <h5 class="card-title">{{media['title']}}</h5>
-          <p class="card-text">{{media['desc']}}</p>
-          <a href="{{media['link']}}" class="btn btn-primary">Learn More</a>
+        <hr>
+        <div class="card-body" style="width: 80%">
+          <h3 class="card-title">{{media['title']}}</h3>
         </div>
+        <a href="{{media['link']}}" class="btn btn-primary" style="position: absolute; right:1rem; bottom:1rem; display: block">Learn More</a>
       </div>
     {%endfor%}
-    </row>
-  </div>
-</div> -->
+    </div>
+    </div>
 <script src="static/js/dots.js"></script>
 
 {% endblock %}

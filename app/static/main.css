@@ -238,3 +238,47 @@ br {
   margin: auto;
   width: 60%;
 }
+
+.media_img {
+    height: 100%;
+}
+
+.media_img_div{
+    height: 10rem;
+    overflow: hidden;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    align-content: center;
+}
+
+#media_div{
+    color: black;
+}
+
+#media_div h1 {
+    color: white;
+}
+
+#media_div hr {
+    padding: 0;
+    margin: 0;
+}
+
+#media_div .card {
+    border-color: var(--theme-color);
+    border-width: 3px;
+}
+
+#media_div .btn{
+    background-color: var(--theme-color);
+    border-color: var(--theme-color);
+}
+
+hr {
+    background-color: var(--theme-color);
+    height: 3px;
+}
+
+#mission_box {
+    color: var(--theme-color);
+}
