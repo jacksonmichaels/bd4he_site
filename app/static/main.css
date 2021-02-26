@@ -147,12 +147,7 @@ h1, h2, h3 {
 
 #logo_div h1 {
     font-size: 8rem;
-    text-align: center;
-}
-#logo_div h2 {
-    font-size: 5rem;
-    text-align: center;
-}
+>
 
 #mission_statement {
     font-size: 4vw;
