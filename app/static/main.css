@@ -1,9 +1,15 @@
 /* custom css */
 
-/* body {
-    background-color: #12232E;
-    color: white;
+/* 
+body {
+    background-color: #ececec;
 } */
+
+:root {
+    --sage: #608545;
+    --gray-blue: #455a64;
+    --theme-color: var(--sage);
+}
 
 .center-h {
     text-align: center;
@@ -13,8 +19,30 @@ p {
     font-size:20px;
 }
 
+.card-img-top {
+    object-fit: contain !important;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
 .main_box {
     padding-top: 2%;
+    background-color: rgb(10,25,30);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#mission_box {
 }
 
 #site_header{
@@ -33,6 +61,11 @@ p {
 
 .bio_box{
     background-color: hsl(204, 5%, 90%);
+    overflow: hidden;
+}
+
+.bio_box img {
+    object-fit: cover !important;
 }
 
 .hideContent {
@@ -45,22 +78,16 @@ p {
     line-height: 1em;
     height: auto;
 }
+
 .showContent{
     height: auto;
 }
 
-#logo_div h1 {
-    font-size: 24px;        
-}
 
-#logo_div p {
-    padding: 10px 0;
-}
 .show-more {
     padding: 10px 0;
     text-align: center;
 }
-
 
 br {
     color: #000;
@@ -87,7 +114,7 @@ br {
     );
     background-image: linear-gradient(
         rgba(228, 230, 231, 0) 0%,
-        rgba(228, 230, 231, 1) 100%
+        rgb(255, 255, 255) 100%
     );
     background-image: -ms-linear-gradient(
         rgba(228, 230, 231, 0) 0%,
@@ -101,14 +128,13 @@ br {
     background-color: #12232E;
     margin: 0px;
     overflow: hidden;
+    position: fixed;
+    z-index: -1;
   }
 
 #logo_div {
-    position: absolute;
-    left: 20vw;
-    top: 20vh;
-    width: 60vw;
-    height: 60vh;
+    padding-top: 5rem;
+    text-align: center;
     color: #dddddd;
     pointer-events:none;
 }
@@ -127,4 +153,94 @@ br {
     font-size: 4vw;
     text-align: center;
     width: 100%;
+}
+
+.strokeme
+{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+.navbar {
+    background-color: var(--theme-color);
+    color: white !important;
+}
+
+#footer_div {
+    height: 1rem !important;
+    background-color: var(--theme-color) !important;
+    color: white !important;
+}
+
+#footer_div p {
+    background-color: var(--theme-color) !important;
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.research_banner {
+    background-color: var(--theme-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.research_banner .card {
+    background-color: var(--theme-color) !important;
+    color: white;
+    border: 5px solid white!important;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+#myCarousel {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-indicators {
+  margin-bottom: 8px;
+}
+
+.carousel-indicators>li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+  background-color: black;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.parent {
+  height: 50vh;
+}
+
+.carousel-item img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+body {
+    color: white;
 }
