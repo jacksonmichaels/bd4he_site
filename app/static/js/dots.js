@@ -355,6 +355,7 @@ function initCanvas(){
 
 function startAnimation(){
     initCanvas();
+    nBalls = can_w * can_h / 10000;
     initBalls(nBalls);
     // initLogo(logo);
     then = Date.now()
@@ -376,15 +377,15 @@ canvas.addEventListener('mousemove', function(e){
 });
 
 canvas.addEventListener('mousedown', function(e){
-    var e = e || window.event;
-    mouse.x = e.pageX;
-    mouse.y = e.pageY;
+    // var e = e || window.event;
+    // mouse.x = e.pageX;
+    // mouse.y = e.pageY;
 
-    for (var i = 0; i < balls.length; i++)
-    {
-        if (!balls[i].infected){
-            balls[i].infected = true;
-            break;
-        }
-    }
+    // for (var i = 0; i < balls.length; i++)
+    // {
+    //     if (!balls[i].infected){
+    //         balls[i].infected = true;
+    //         break;
+    //     }
+    // }
 });
