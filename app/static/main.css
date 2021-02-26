@@ -1,5 +1,16 @@
 /* custom css */
 
+/* 
+body {
+    background-color: #ececec;
+} */
+
+:root {
+    --sage: #608545;
+    --gray-blue: #455a64;
+    --theme-color: var(--sage);
+}
+
 .center-h {
     text-align: center;
 }
@@ -8,8 +19,30 @@ p {
     font-size:20px;
 }
 
+.card-img-top {
+    object-fit: contain !important;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
 .main_box {
     padding-top: 2%;
+    background-color: rgb(10,25,30);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#mission_box {
 }
 
 #site_header{
@@ -40,22 +73,16 @@ p {
     line-height: 1em;
     height: auto;
 }
+
 .showContent{
     height: auto;
 }
 
-#logo_div h1 {
-    font-size: 24px;        
-}
 
-#logo_div p {
-    padding: 10px 0;
-}
 .show-more {
     padding: 10px 0;
     text-align: center;
 }
-
 
 br {
     color: #000;
@@ -96,23 +123,23 @@ br {
     background-color: #12232E;
     margin: 0px;
     overflow: hidden;
+    position: fixed;
+    z-index: -1;
   }
 
 #logo_div {
-    position: relative;
-    top: 4.5vh;
+    padding-top: 5rem;
+    text-align: center;
     color: #dddddd;
-    background-color: black;
+    pointer-events:none;
 }
 
 #logo_div h1 {
-    font-weight: bold;  
-    font-family: Arial, Helvetica, sans-serif; 
     font-size: 7vw;
     text-align: center;
     height: 35vh;
 }
-#logo_div h2 {
+#logo_div p {
     font-size: 3vw;
     text-align: center;
 }
@@ -131,6 +158,46 @@ br {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;  
+}
+
+.navbar {
+    background-color: var(--theme-color);
+    color: white !important;
+}
+
+#footer_div {
+    height: 1rem !important;
+    background-color: var(--theme-color) !important;
+    color: white !important;
+}
+
+#footer_div p {
+    background-color: var(--theme-color) !important;
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.research_banner {
+    background-color: var(--theme-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.research_banner .card {
+    background-color: var(--theme-color) !important;
+    color: white;
+    border: 5px solid white!important;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
 }
 
 
@@ -168,6 +235,7 @@ br {
   margin: auto;
   width: 60%;
 }
-.navbar-brand {
-    font-weight: bold;  
+
+body {
+    color: white;
 }

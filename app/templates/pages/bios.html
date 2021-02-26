@@ -2,23 +2,26 @@
 
 
 {% block content %}
-<div class="container">
+
+<div class="container" style="color: black;">
 <div class="row" style="margin-top: 4.5vh">
     <div class="container">
-      <h1 style="font-size: 4vw; text-align: center;">Meet the Team!</h1>
-      <div class="row">
+      <div  style="margin: 8%">
+      <h1 style="font-size: 4vw; text-align: center;">Meet the Team</h1>
+      <!-- <div class="row">
         {% for institution in institutions%}
         <div class="col-3" style="height: 160px; width: 160px; position: relative;">
             <img src="{{'static/images/institutions/' + institution}}" class="card-img-top" alt="..." style="max-height: 100%; max-width: 100%; width: auto; height: auto; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto;">
         </div>
         {%endfor%} 
-      </div>
+      </div> -->
+    </div>
       <div class="container">
         <h1>Faculty</h1>
         {% for person in faculty%}
           <div class="row jumbotron bio_box container" style="margin-top: 2%; padding: 1%">
-            <div class="col-lg-4 col-md-12 ">
-              <img src="{{'static/images' + person['img']}}" class="card-img-top" alt="..." style="height: 100%; object-fit: cover">
+            <div class="col-lg-4 col-md-12 "  style="height: 20rem;" style="position: relative">
+              <img src="{{'static/images' + person['img']}}" class="card-img-top center" alt="...">
             </div>
             <div class="col-lg-8 col-md-12" style="overflow: hidden;">
               <div class="row">
@@ -31,13 +34,14 @@
           </div>
         {%endfor%} 
       </div>
-      <hr>
+      <div id="research_banner">
+          <h1>Postdoctoral Scholars, Students, and Researchers</h1>
+      </div>
       <div class="container">
-        <h1>Postdoctoral Scholars, Students, and Researchers</h1>
         {% for person in non_faculty%}
         <div class="row jumbotron bio_box container" style="margin-top: 2%; padding: 1%">
-            <div class="col-lg-4 col-md-12 ">
-              <img src="{{'static/images' + person['img']}}" class="card-img-top" alt="..." style="height: 100%; object-fit: cover">
+            <div class="col-lg-4 col-md-12 "  style="height: 20rem;" style="position: relative">
+              <img src="{{'static/images' + person['img']}}" class="card-img-top center"  alt="...">
             </div>
             <div class="col-lg-8 col-md-12" style="overflow: hidden;">
               <div class="row">
@@ -50,9 +54,9 @@
           </div>
         {%endfor%} 
       </div>
-      <div class="row">
+      <div class="row justify-content-around">
         {% for institution in institutions%}
-        <div class="col-3" style="height: 160px; width: 160px; position: relative;">
+        <div class="col-2" style="height: 160px; width: 160px; position: relative;">
             <img src="{{'static/images/institutions/' + institution}}" class="card-img-top" alt="..." style="max-height: 100%; max-width: 100%; width: auto; height: auto; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto;">
         </div>
         {%endfor%} 

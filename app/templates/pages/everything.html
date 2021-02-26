@@ -5,16 +5,18 @@
 <!-- <div class="container center-h" style="height: 25vh;">
     <img src="static/images/logo.PNG">
 </div> -->
-<!-- <canvas id="dots_window">  
+
+<canvas id="dots_window">  
 </canvas>
+
 
 
 <div id="logo_div">
   <h1 style="font-weight: bold;  font-family: Arial, Helvetica, sans-serif; padding-bottom: 0">Big Data for <br> Health Equity</h1>
   <h2 class = "center-h" style="font-weight: bold;  font-family: Arial, Helvetica, sans-serif; font-size: 5vw">BD4HE</h2>
   <br>
-</div> -->
-
+</div>
+<!--  
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ul class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -48,31 +50,17 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-  </div>
+  </div>  -->
   <!-- <div class="fadeout" style="position: relative; top: -4.5vh; height: 4.5vh; display: block"></div> -->
 
 
 <br>
-<div class="container main_box">
-  <h1>Mission</h1>
-  <hr>
-  <p > The Mission of Big Data for Health Equity Research Collaborative is Advancing Big Data Methods in Population Health to Improve Health Equity</p>
-</div>
+<div class="container main_box" style="">
+  <h1 id="mission_box" style="font-weight: bold; padding-bottom: 1rem;text-align: center;">Advancing Big Data Methods in Population Health to Improve Health Equity</h1>
+  <p style="text-align: center;">
+      We are a collaborative of faculty, trainees, and students from universities across the U.S committed to advancing theories, methods, and findings related to the use of Big Data for health equity research. We investigate the impact of the social, cultural, and built environment on health disparities and identify levers for change. One theme of our research has been the measurement of area-level racial attitudes and quantifying its impact on health using both machine learning algorithms and qualitative approaches.
 
-<div class="container main_box">
-  <h1>Group Description</h1>
-  <hr>
-  <p>
-      This collaborative group focuses on the use of Big Data for health equity research. We are faculty, trainees, and students from universities 
-      across the U.S committed to advancing theories, methods, and findings related to the use of Big Data. We investigate the impact of the social,
-       cultural, and built environment on health disparities and identify levers for change. One theme of our research has been the measurement of 
-       area-level racial attitudes and quantifying its impact on health using both machine learning algorithms and qualitative approaches.
-</div>
-
-
-<div class="container main_box" id="Research">
-  <h1>Research</h1>
-  <hr>
+  <h1 class = "research_banner">Research</h1>
 
   <h2>In development</h2>
   <ul>
@@ -94,10 +82,8 @@
     <li><p>{{proj}}</p></li>
     {%endfor%}
   </ul>
-</div>
-
-<div class="container main_box" id="Grant Support">
-  <h1>Grant Support</h1>
+  <hr>
+  <h1 class='research_banner'>Grant Support</h1>
   <hr>
   <p>
     This research is supported by the National Institute on Minority Health and Health Disparities and the National Library of Medicine of 
@@ -106,6 +92,7 @@
     (P2C-HD041022) from the Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD).
   </p>
 </div>
+
 <!-- 
 <div class="container main_box" id = "Media Appearances">
   <h1>Media Appearances</h1>
@@ -127,6 +114,5 @@
   </div>
 </div> -->
 <script src="static/js/dots.js"></script>
-
 
 {% endblock %}

@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="{{ url_for('static', filename='main.css') }}" rel="stylesheet" media="screen">
+
   {% block links %}{% endblock %}
 </head>
 
@@ -21,7 +22,7 @@
   <header>
     <!-- Navigation -->
     <div></div>
-    <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light">
       <div class="container">
         <a class="navbar-brand" href="{{ url_for('main.index') }}">{{ config.APP_NAME }}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -62,7 +63,7 @@
   {% block content %}{% endblock %}
   <!-- Footer-->
   <footer>
-    <div class="container-fluid bg-light py-5">
+    <div class="container-fluid bg-light py-5" id="footer_div">
       <!-- Copyrights -->
       <div class="text-center">
         <p class="text-muted mb-0 py-2">&copy;2020 {{ config.APP_NAME }} | All rights reserved.</p>
