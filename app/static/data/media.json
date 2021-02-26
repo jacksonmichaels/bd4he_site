@@ -1,22 +1,22 @@
 {
     "appearances": [
         {
-            "thumbnail": "https://www.prb.org/wp-content/themes/prb-2017/static/prb.png",
+            "thumbnail": "https://i.ytimg.com/vi/robTs6k12lY/maxresdefault.jpg",
             "title": "Neighborhood Racial Segregation and Negative Sentiments Toward People of Color Linked to Premature Births",
-            "desc": "this is a fake body of text to be used as the blurb",
+            "desc": "",
             "link": "https://www.prb.org/neighborhood-racial-segregation-and-negative-sentiments-toward-people-of-color-linked-to-premature-births/"
         },
         {
-            "thumbnail": "https://www.mdpi.com/img/journals/ijerph-logo.png?73ffce705b3dc49c",
+            "thumbnail": "static\\images\\img_2.png",
             "title": "Special Issue 'Big Data for the Advancement of Health Equity'",
-            "desc": "this is a fake body of text to be used as the blurb",
+            "desc": "",
             "link": "https://www.mdpi.com/journal/ijerph/special_issues/equity_health"
         },
         {
-            "thumbnail": "static\\images\\bio_images\\default_user.png",
-            "title": "some are in papers",
-            "desc": "this is a fake body of text to be used as the blurb",
-            "link": "link"
+            "thumbnail": "static\\images\\logo.PNG",
+            "title": "New Big Data for Health Equite Research Collaborative Site Design",
+            "desc": "Actually there are three of them",
+            "link": "/"
         }
     ]
 }

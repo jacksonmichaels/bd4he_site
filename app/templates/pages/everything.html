@@ -30,10 +30,10 @@
         {% else %}
           <div class="carousel-item" style="height: 50vh">
         {% endif %}
-            <div class="parent d-flex justify-content-center">
-              <img src="{{media['thumbnail']}}">
-              <div class="mask rgba-black-strong"></div>
-            </div>
+          <div class="carousel-img d-flex justify-content-center">
+            <img src="{{media['thumbnail']}}">
+            <div class="mask rgba-black-strong"></div>
+          </div>
           <div class="carousel-caption strokeme">
             <h3 class="h3-responsive">{{media['title']}}</h3>
             <p>{{media['desc']}}  <a href="{{media['link']}}" target="_blank">Read More...</a></p>
@@ -50,10 +50,8 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-  </div> 
-  <!-- <div class="fadeout" style="position: relative; top: -4.5vh; height: 4.5vh; display: block"></div> -->
-
-
+  </div>
+  <hr style="">
 <br>
 <div class="container main_box" style="">
   <h1 id="mission_box" style="font-weight: bold; padding-bottom: 1rem;text-align: center;">Advancing Big Data Methods in Population Health to Improve Health Equity</h1>

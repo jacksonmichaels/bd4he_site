@@ -11,6 +11,12 @@ body {
     --theme-color: var(--sage);
 }
 
+hr {
+    border-width: 3px;
+    background-color: var(--theme-color);
+    margin: 0;
+}
+
 h1, h2, h3 {
     font-family: 'Georgia' !important;
     font-weight: bold;
@@ -220,6 +226,19 @@ br {
     text-align: center;
 }
 
+.carousel-img {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    max-width: 100rem;
+    margin: auto;
+}
+
+.carousel-img img {
+    height: 100%;
+    width: 100%;
+}
+
 #myCarousel {
   height: 100%;
   width: 100%;
@@ -246,12 +265,6 @@ br {
 
 .parent {
   height: 50vh;
-}
-
-.carousel-item img {
-  display: block;
-  margin: auto;
-  width: 60%;
 }
 
 body {
